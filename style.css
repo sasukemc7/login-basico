@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url('./img/fondo.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login {
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    border: 1px solid #eee3;
+    border-radius: 10px;
+}
+
+.login__title {
+    font-family: "Oswald";
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login__input {
+    width: 95%;
+    padding: 8px;
+    margin: 7px 0;
+    background: transparent;
+    border: none;
+    border: 1px solid #fff5;
+    border-radius: 20px;
+    transition: transform 0.8s ease;
+}
+
+.bxs-user{
+    position: absolute;
+    top: 112px;
+    right: 50px;
+}
+
+.bxs-lock-alt {
+    position: absolute;
+    top: 162px;
+    right: 50px;
+}
+.login__input:hover {
+    transform: scale(1.01);
+}
+.login__input::placeholder {
+    color: white;
+}
+
+.login__input:focus {
+    outline: none;
+}
+
+.login__text-container {
+    font-size: 15px;
+}
+
+.login__butom {
+    width: 100%;
+    margin: 10px 0;
+    padding: 7px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 1px #000a;
+    transition: transform 0.8s ease;
+}
+
+.login__butom:hover {
+    transform: scale(1.03);
+}
+
+.login__butom:active {
+    background: whitesmoke;
+}
+.login__register-container {
+    text-align: center;
+}
+
+.login__text-a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login__text-a:hover {
+    text-decoration: underline;
+}
+
+.login__register {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login__register:hover {
+    text-decoration: underline;
+}
