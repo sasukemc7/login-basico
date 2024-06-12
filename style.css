@@ -61,7 +61,7 @@ body {
     color: white;
 }
 
-.login__input:focus {
+.login__input:focus-visible {
     outline: none;
 }
 
